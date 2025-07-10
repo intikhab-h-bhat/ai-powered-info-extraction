@@ -60,3 +60,31 @@ With the index, you can quickly search for information using keywords or filters
 
 ## In summary:
 Azure AI Search uses indexers to gather and read your data, applies AI skills to understand it, and saves the results in an index so you can easily search and find what you need.
+
+# Saving Extracted Data to a Knowledge Store: Simple Explanation
+When Azure AI Search processes your documents and data, it doesn’t just make them searchable—it can also save the useful information it finds in a special storage area called a knowledge store in Azure Storage.
+
+## What Does the Knowledge Store Hold?
+The indexer (the smart robot that reads and organizes your data) can save different types of information in the knowledge store:
+
+## Tables of Field Values
+
+Imagine a spreadsheet with rows and columns. The indexer can save important details (like names, dates, numbers) in a table format, making it easy to look up or analyze later.
+
+## Images Extracted from Documents
+
+If your documents have pictures, the indexer can pull out those images and save them separately. This way, you can use or review images without searching through all the original files.
+
+## JSON Documents for Complex Data
+
+Sometimes, the information is more complicated and organized in a nested way (like folders within folders). The indexer can save this kind of data as JSON documents—a format that keeps the structure and relationships between pieces of data clear.
+
+## Why Is This Useful?
+You can use the saved tables, images, and JSON files for further analysis, reporting, or to build other applications.
+
+It helps you organize and reuse the valuable information found in your documents, not just search for it.
+
+## In short:
+Azure AI Search can save the information it extracts into easy-to-use formats (tables, images, and structured files) in a knowledge store, so you can do more with your data beyond just searching.
+
+
